@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e0f7fa; /* azul cielo suave */
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header.encabezado {
+  background: url('assets/bg-divertido.jpg') center/cover no-repeat;
+  color: white;
+  height: 60vh;
+  position: relative;
+}
+
+header .overlay {
+  background-color: rgba(100, 181, 246, 0.7); /* azul claro translúcido */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+section {
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0288d1; /* azul vibrante */
+  border-left: 5px solid #4dd0e1; /* azul turquesa */
+  padding-left: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff9c4; /* amarillo pastel */
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #f57c00; /* naranja suave */
+}
+
+.mensaje {
+  font-weight: bold;
+  color: #00796b; /* verde menta oscuro */
+  text-align: center;
+  margin-top: 15px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #039be5; /* azul claro */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: #4db6ac; /* verde menta */
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 3px solid #26a69a;
+}
